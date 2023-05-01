@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./container.component.css']
 })
 export class ContainerComponent {
+  someValue ='this is input value from container component';
 
+  onButtonClickChildComponene($event : string){
+    console.log($event);
+  }
 }
